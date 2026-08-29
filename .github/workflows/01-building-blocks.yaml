@@ -4,12 +4,12 @@ on: push
 
 jobs:
     echo-hello:
-        runs-on: ubunto-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Say Hello
               run: echo "Hello World!"
     echo-goodbye:
-        runs-on: ubunto-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Failed Step
               run: |
